@@ -1,0 +1,17 @@
+.services__list-heading {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+
+    @media (max-width: 480px) {
+        padding-bottom: 35px;
+    }
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+    }
+}

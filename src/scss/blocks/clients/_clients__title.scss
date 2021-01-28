@@ -1,0 +1,14 @@
+.clients__title {
+    font: normal normal bold 80px/132px Sora;
+    text-transform: uppercase;
+    color: $uq-white;
+
+    @media (max-width: 700px) {
+        text-align: center;
+        font: normal normal bold 30px/35px Sora !important;
+    }
+
+    @media (min-width: 480px) and (max-width: 1200px) {
+        font: normal normal bold 60px/65px Sora;
+    }
+}

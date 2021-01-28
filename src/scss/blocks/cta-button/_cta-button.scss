@@ -1,0 +1,14 @@
+//CTA BUTTON block
+.cta-button {
+    font: normal normal normal 20px/40px Sora;
+    text-transform: uppercase;
+    color: $uq-white;
+    background-color: $uq-black;
+    letter-spacing: 0.4px;
+    padding: 9px 25px 8px 27px;
+
+    &:hover {
+        text-decoration: none;
+        color: #EAEAEA;
+    }
+}

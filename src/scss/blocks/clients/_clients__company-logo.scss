@@ -1,0 +1,7 @@
+.clients__company-logo {
+    max-width: 250px;
+
+    @media (max-width: 480px) {
+        max-width: 161px;
+    }
+}

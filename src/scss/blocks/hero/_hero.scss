@@ -1,0 +1,18 @@
+//HERO block 
+.hero {
+    display: flex;
+
+    @media (max-width: 767px) {
+        align-items: center;
+    }
+
+    @media (max-width: 1199px) {
+        flex-direction: column;
+    }
+}
+
+@import 'hero__left';
+@import 'hero__right';
+@import 'hero__animation-wrapper';
+@import 'hero__title';
+@import 'hero__sub';

@@ -1,0 +1,43 @@
+.header__nav-menu-cover--mob-nav-on {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 82px);
+    z-index: 10;
+    top: 82px;
+    left: 0;
+    background-color: $uq-gray;
+    position: absolute;
+    padding-top: 9px;
+
+    /*the following don't need to be at root because BEM allows 
+    cascading if the state of the parent changes or themes are 
+    assigned to it. In this case the parent state changes to &--mob-nav-on*/
+    .header__nav-item {
+        justify-content: center;
+        max-width: 188px;
+    }
+
+    .header__nav-item--regular {
+        padding: 0;
+
+        .header__nav-item-link {
+            padding: 24px 0;
+        }
+    }
+
+    .header__nav-item-link {
+        font: normal normal 600 30px/38px Sora;
+    }
+
+    .header__nav-item--bordered {
+        margin: 24px 0px 0px -2px;
+        padding: 12px 17px 8px 14px;
+    }
+
+    .header__lang-switch {
+        position: absolute;
+        bottom: 44px;
+    }
+}

@@ -1,0 +1,21 @@
+//HEADER block 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1745px;
+    width: 100%;
+}
+
+@import 'header__lang-switch-value';
+@import 'header__lang-switch';
+@import 'header__logo-img';
+@import 'header__logo';
+@import 'header__nav-item--bordered';
+@import 'header__nav-item--regular';
+@import 'header__nav-item-link';
+@import 'header__nav-item';
+@import 'header__nav-menu-cover--mob-nav-on';
+@import 'header__nav-menu-cover';
+@import 'header__part-left';
+@import 'header__part-right';

@@ -1,0 +1,49 @@
+// Grid breakpoint modifications
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 768px,
+  l: 992px,
+  ll: 1200px,
+  lg: 1440px,
+  xl: 1920px);
+
+// Grid containers
+$container-max-widths: (
+  xs: 100%,
+  sm: 540px,
+  md: 608px,
+  l: 960px,
+  ll: 1140px,
+  lg: 1178px,
+  xl: 1464px);
+
+//local stylesheets
+@import 'variables';
+@import 'sections/header';
+@import 'sections/hero';
+@import 'sections/projects';
+@import 'sections/services';
+@import 'sections/clients';
+@import 'blocks/blocks_import';
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: $uq-white;
+  color: $uq-black;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}

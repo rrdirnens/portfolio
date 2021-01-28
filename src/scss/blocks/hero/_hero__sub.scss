@@ -1,0 +1,26 @@
+.hero__sub {
+    font: normal normal normal 20px/32px IBM Plex Sans;
+    padding-top: 10px;
+    width: 51%;
+    margin-bottom: 33px;
+
+    @media (max-width: 768px) {
+        font: normal normal normal 25px/35px IBM Plex Sans;
+        width: 100%;
+        margin-bottom: 39px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        font: normal normal normal 25px/35px IBM Plex Sans;
+        width: 93%;
+        margin-bottom: 22px;
+    }
+
+    @media (min-width: 1440px) {
+        width: 57%;
+    }
+
+    @media (min-width: 1920px) {
+        width: 54%;
+    }
+}

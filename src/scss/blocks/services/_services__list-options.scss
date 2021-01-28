@@ -1,0 +1,9 @@
+.services__list-points {
+    margin-bottom: 10px;
+
+    @media (max-width: 992px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

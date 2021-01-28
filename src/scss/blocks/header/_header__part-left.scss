@@ -1,0 +1,9 @@
+.header__part-left {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+
+    @media(max-width: 1745px) {
+        margin-left: 31px;
+    }
+}

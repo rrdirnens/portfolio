@@ -1,0 +1,20 @@
+.hero__title {
+    text-transform: uppercase;
+
+    @media (max-width: 767px) {
+        font: normal normal bold 30px/40px Sora;
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        font: normal normal bold 60px/65px Sora;
+        width: 101%;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1439px) {
+        font: normal normal bold 70px/75px Sora;
+    }
+
+    @media (min-width: 1440px) {
+        font: normal normal bold 80px/90px Sora;
+    }
+}

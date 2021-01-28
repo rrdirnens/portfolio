@@ -1,0 +1,33 @@
+.toggle__switch {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid $uq-black;
+    border-radius: 16px;
+    width: 27px;
+    height: 15px;
+    position: relative;
+    vertical-align: middle;
+
+    &:before,
+    &:after {
+        content: "";
+    }
+
+    &:before {
+        display: block;
+        background: $uq-black;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        transition: left 0.25s;
+    }
+
+    @at-root .toggle__checkbox:checked+& {
+        &:before {
+            left: 9px;
+        }
+    }
+}

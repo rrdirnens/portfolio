@@ -1,0 +1,13 @@
+//TOGGLE block
+.toggle {
+    cursor: pointer;
+    padding: 0 6px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@import 'toggle__switch';
+@import 'toggle__checkbox';

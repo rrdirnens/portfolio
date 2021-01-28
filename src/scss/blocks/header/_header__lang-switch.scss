@@ -1,0 +1,8 @@
+.header__lang-switch {
+    display: flex;
+    padding: 0 35px 0 24px;
+
+    @media (min-width: $breakpoint-desktop-large) {
+        padding: 0 0 0 24px;
+    }
+}

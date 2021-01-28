@@ -1,0 +1,27 @@
+.services__list-heading-text {
+    padding-left: 3px;
+    flex: 6;
+    font: normal normal 800 35px/30px Sora;
+    text-transform: uppercase;
+
+    @media (max-width: 480px) {
+        font: normal normal 800 30px/30px Sora;
+        text-align: center;
+        padding-top: 24px;
+    }
+
+    @media (min-width: 480px) and (max-width: 992px) {
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-bottom: 17px;
+    }
+
+    @media (min-width: 1440px) {
+        padding-left: 15px;
+    }
+
+    @media (min-width: 1920px) {
+        padding-left: 3px;
+    }
+
+}

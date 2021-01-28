@@ -1,0 +1,54 @@
+.hero__animation-wrapper {
+    position: absolute;
+
+    &:before {
+        display: block;
+        color: red;
+        width: 100vw;
+        position: absolute;
+        bottom: 0px;
+        height: 209px;
+        z-index: -1;
+        background: $uq-gray;
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            height: 169px;
+        }
+
+        @media (min-width: 768px) and (max-width: 1199px) {
+            content: '';
+            width: 9000px;
+            left: -3000px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+            height: 270px;
+        }
+
+        @media (min-width: 1440px) and (max-width: 1920px) {
+            content: '';
+        }
+    }
+
+    @media (max-width: 1199px) {
+        width: 100%;
+        position: relative;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1440px) {
+        width: 51%;
+    }
+
+    @media (min-width: 1440px) and (max-width: 1919px) {
+        max-width: 725px;
+        padding-top: 33px;
+    }
+
+    @media (min-width: 1441px) {
+        width: 54.5%;
+    }
+
+    @media (min-width: 1920px) {
+        max-width: 1045px;
+    }
+}

@@ -1,0 +1,34 @@
+//SERVICE block
+.services {
+    display: flex;
+
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+    }
+}
+
+@import 'services__line';
+@import 'services__list-cover';
+@import 'services__body-text-link';
+@import 'services__body-text';
+@import 'services__cta-wrapper';
+@import 'services__left';
+@import 'services__line-break';
+@import 'services__line-cover';
+@import 'services__line';
+@import 'services__list-body';
+@import 'services__list-cover';
+@import 'services__list-heading--bottom';
+@import 'services__list-heading--top';
+@import 'services__list-heading-image-cover';
+@import 'services__list-heading-text';
+@import 'services__list-heading';
+@import 'services__list-options';
+@import 'services__list-point';
+@import 'services__right';
+@import 'services__title';
+

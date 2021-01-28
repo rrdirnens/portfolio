@@ -1,0 +1,12 @@
+.services__list-cover {
+    flex: 6;
+    padding-left: 3px;
+
+    @media (min-width: 1440px) {
+        padding-left: 15px;
+    }
+
+    @media (min-width: 1920px) {
+        padding-left: 3px;
+    }
+}

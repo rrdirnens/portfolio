@@ -1,0 +1,23 @@
+.services__body-text-link {
+    text-decoration: underline;
+    font: normal normal normal 20px/32px IBM Plex Sans;
+    color: $uq-black;
+
+    @media (max-width: 480px) {
+        font: normal normal normal 25px/35px IBM Plex Sans;
+    }
+
+    @media (min-width: 480px) and (max-width: 991px) {
+        font: normal normal normal 25px/35px IBM Plex Sans;
+    }
+
+    @media (min-width: 992px) {
+        font: normal normal normal 20px/32px IBM Plex Sans;
+    }
+
+    @at-root &--on-large-screens {
+        @media (max-width: 480px) {
+            display: none;
+        }
+    }
+}

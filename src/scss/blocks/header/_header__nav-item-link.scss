@@ -1,0 +1,9 @@
+.header__nav-item-link {
+    color: $uq-black;
+    font: normal normal 600 20px/25px Sora;
+    text-transform: uppercase;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,9 @@
+.services__list-point {
+    font: normal normal normal 20px/30px IBM Plex Sans;
+
+    @media (max-width: 480px) {
+        font: normal normal normal 20px/30px IBM Plex Sans;
+        text-align: center;
+    }
+
+}

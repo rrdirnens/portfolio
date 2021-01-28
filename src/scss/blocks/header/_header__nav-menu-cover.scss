@@ -1,0 +1,8 @@
+.header__nav-menu-cover {
+    display: flex;
+    margin-bottom: 0;
+
+    @media(max-width: 1100px) {
+        display: none;
+    }
+}

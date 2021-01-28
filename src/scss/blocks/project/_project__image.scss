@@ -1,0 +1,17 @@
+.project__image {
+    @media (max-width: 1199px) {
+        width: 100%;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1440px) {
+        height: 100%;
+    }
+
+    @media (min-width: 1440px) and (max-width: 1919px) {
+        height: 92%;
+    }
+
+    @media (min-width: 1920px) {
+        height: 100%;
+    }
+}

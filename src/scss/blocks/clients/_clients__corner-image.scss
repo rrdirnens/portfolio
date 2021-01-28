@@ -1,0 +1,27 @@
+.clients__corner-image {
+    position: absolute;
+    top: -30px;
+    right: -16px;
+
+    @media (max-width: 480px) {
+        width: 194px;
+        top: -1px;
+        right: -21px;
+    }
+
+    @media (min-width: 480px) and (max-width: 1199px) {
+        width: 285px;
+        top: -2px;
+        right: -30px;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1919px) {
+        top: -29px;
+        right: -71px;
+    }
+
+    @media (min-width: 1920px) {
+        top: -30px;
+        right: -16px;
+    }
+}

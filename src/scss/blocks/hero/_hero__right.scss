@@ -1,0 +1,23 @@
+.hero__right {
+    flex: 100;
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
+    @media (max-width: 1200px) {
+        flex: unset;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1440px) {
+        flex: 1;
+    }
+
+    @media (min-width: 1440px) and (max-width: 1919px) {
+        padding-top: 70px;
+    }
+
+    @media (min-width: 1441px) {
+        flex: 100;
+    }
+}

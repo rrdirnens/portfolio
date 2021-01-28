@@ -1,0 +1,25 @@
+.project__right {
+    flex: 1388;
+    background-color: $uq-yellow;
+    height: 719px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 1920px) {
+        max-width: 1125px;
+    }
+
+    @at-root &--yellow {
+        background-color: $uq-yellow;
+    }
+
+    @at-root &--red {
+        background-color: $uq-red;
+    }
+
+    @at-root &--blue {
+        background-color: $uq-blue;
+    }
+}

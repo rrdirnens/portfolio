@@ -1,0 +1,24 @@
+.hero__left {
+    padding-top: 92px;
+
+    @media (max-width: 767px) {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 540px;
+        padding: 0 15px 0 15px;
+    }
+
+    @media (max-width: 1200px) {
+        flex: unset;
+        padding-top: 29px;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1440px) {
+        flex: 1;
+    }
+
+    @media (min-width: 1441px) {
+        flex: 82;
+    }
+}

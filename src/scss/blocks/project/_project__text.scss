@@ -1,0 +1,9 @@
+.project__text {
+    color: $uq-white;
+    margin-bottom: 46px;
+    font: normal normal normal 17px/30px IBM Plex Sans;
+
+    @at-root .project__text--bold {
+        font: normal normal bold 17px/30px IBM Plex Sans;
+    }
+}

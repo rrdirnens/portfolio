@@ -1,0 +1,18 @@
+//CLIENTS block
+.clients {
+    padding-bottom: 59px;
+
+    @media (min-width: 480px) and (max-width: 1200px) {
+        padding-bottom: 105px;
+    }
+
+    @media (min-width: 1920px) {
+        padding-right: 70px;
+    }
+}
+
+@import 'clients__companies';
+@import 'clients__company';
+@import 'clients__company-logo';
+@import 'clients__corner-image';
+@import 'clients__title';

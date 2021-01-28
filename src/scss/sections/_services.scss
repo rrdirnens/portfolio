@@ -1,0 +1,36 @@
+//SERVICES section styling
+.services-section {
+
+    @media (min-width:992px) {
+        padding-top: 78px;
+    } 
+
+    @media (min-width: 480px) and (max-width: 991px) {
+        padding-top: 21px;
+    }
+
+    //temporary
+    padding-bottom: 130px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 480px) {
+            padding: 0 36px 0 36px;
+        }
+
+        @media (min-width: 480px) and (max-width: 992px) {
+            padding: 0 0 0 5px;
+        }
+
+        @media (min-width: 1440px) {
+            padding: 0;
+        }
+
+        @media (min-width: 1920px) {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+//CLIENTS section styling
+.clients-section {
+    background-color: $uq-blue;
+    position: relative;
+    padding-top: 55px;
+
+    @media (max-width: 700px) {
+        padding-top: 97px;
+    }
+
+    @media (min-width: 701px) and (max-width: 992px) {
+        padding-top: 66px;
+    }
+
+    .container {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
