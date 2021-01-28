@@ -20,12 +20,6 @@ $container-max-widths: (
 
 //local stylesheets
 @import 'variables';
-@import 'sections/header';
-@import 'sections/hero';
-@import 'sections/projects';
-@import 'sections/services';
-@import 'sections/clients';
-@import 'blocks/blocks_import';
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
