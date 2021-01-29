@@ -20,6 +20,9 @@ $container-max-widths: (
 
 //local stylesheets
 @import 'variables';
+@import 'sections/main-section';
+@import 'blocks/blocks_import';
+
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
@@ -32,8 +35,8 @@ $container-max-widths: (
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: $uq-white;
-  color: $uq-black;
+  // background: $uq-white;
+  // color: $uq-black;
   line-height: 1.5;
   overflow-x: hidden;
 }

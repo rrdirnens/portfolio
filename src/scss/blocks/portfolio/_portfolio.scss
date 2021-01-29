@@ -1,0 +1,29 @@
+.portfolio {
+    background: #fff;
+    height: 600px;
+    width: 1000px;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 7%);
+    box-shadow: 0px 0px 10px 0 rgb(240 240 240 / 37%);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid #fff3;
+
+    position: relative;
+    display: flex;
+}
+
+@import 'portfolio__tab-controls';
+@import 'portfolio__tab-controls-single--active';
+@import 'portfolio__tab-controls-single';
+@import 'portfolio__tab-panes';
+@import 'portfolio__tab-panes-single';
+@import 'portfolio__tab-panes-single--active';
+@import 'portfolio__tab-panes-single--about';
+@import 'portfolio__about-left';
+@import 'portfolio__about-right';
+@import 'portfolio__about-image';
+@import 'portfolio__title';
+@import 'portfolio__sub';
+

@@ -1,0 +1,7 @@
+.portfolio__tab-controls-single--active {
+    // color: $black!important;
+
+    @at-root &:before {
+        display: block!important;
+    }
+}
