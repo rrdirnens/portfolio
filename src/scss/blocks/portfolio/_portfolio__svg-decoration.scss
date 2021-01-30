@@ -1,0 +1,17 @@
+.portfolio__svg-decoration {
+    position: absolute;
+    
+    @at-root &.portfolio__svg-decoration--top-left {
+        position: absolute;
+        width: 10%;
+        top: -40px;
+        left: -40px;
+        z-index: 1;
+    }
+    @at-root &.portfolio__svg-decoration--bottom-right {
+        position: absolute;
+        width: 19%;
+        bottom: -40px;
+        right: -40px;
+    }
+}

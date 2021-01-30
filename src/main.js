@@ -1,8 +1,9 @@
 window.addEventListener("load", function () {
     // store tabs variable
-    var myTabs = document.querySelectorAll(
+    let myTabs = document.querySelectorAll(
         ".portfolio__tab-controls-single"
     );
+    let background = document.querySelector('.main-section')
 
     function myTabClicks(tabClickEvent) {
         for (var i = 0; i < myTabs.length; i++) {
@@ -12,13 +13,18 @@ window.addEventListener("load", function () {
             );
         }
 
-        var clickedTab = tabClickEvent.currentTarget;
+        let clickedTab = tabClickEvent.currentTarget;
+        console.log(clickedTab)
+        console.log(clickedTab.getAttribute("data-image"))
+
+        background.style.backgroundImage = 'url(\''+ clickedTab.getAttribute('data-image')+'\')'
+        
 
         clickedTab.classList.add("portfolio__tab-controls-single--active");
 
         tabClickEvent.preventDefault();
 
-        var myContentPanes = document.querySelectorAll(
+       let myContentPanes = document.querySelectorAll(
             ".portfolio__tab-panes-single"
         );
 
@@ -28,9 +34,9 @@ window.addEventListener("load", function () {
             );
         }
 
-        var anchorReference = tabClickEvent.target;
-        var activePaneId = anchorReference.getAttribute("href");
-        var activePane = document.querySelector(activePaneId);
+        let anchorReference = tabClickEvent.target;
+        let activePaneId = anchorReference.getAttribute("href");
+        let activePane = document.querySelector(activePaneId);
 
         activePane.classList.add("portfolio__tab-panes-single--active");
     }

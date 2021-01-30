@@ -1,0 +1,8 @@
+.portfolio__decoration {
+    position: absolute;
+    display: flex;
+    background: rgb(1 1 1 / 45%);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+}
