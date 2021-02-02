@@ -1,0 +1,12 @@
+.button {
+    display: flex;
+    padding: 10px 30px;
+    color: #fff;
+    background: chocolate;
+
+    @at-root &:hover {
+        color: #fff;
+        background: rgb(255, 162, 95);
+        text-decoration: none;
+    }
+}

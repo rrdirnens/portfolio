@@ -7,15 +7,12 @@ window.addEventListener("load", function () {
 
     function myTabClicks(tabClickEvent) {
         for (var i = 0; i < myTabs.length; i++) {
-            console.log('clicked')
             myTabs[i].classList.remove(
                 "portfolio__tab-controls-single--active"
             );
         }
 
         let clickedTab = tabClickEvent.currentTarget;
-        console.log(clickedTab)
-        console.log(clickedTab.getAttribute("data-image"))
 
         background.style.backgroundImage = 'url(\''+ clickedTab.getAttribute('data-image')+'\')'
         
@@ -44,4 +41,11 @@ window.addEventListener("load", function () {
     for (let i = 0; i < myTabs.length; i++) {
         myTabs[i].addEventListener("click", myTabClicks);
     }
+});
+
+
+jQuery(document).ready(function () {
+    jQuery('.projects__slider').slick({
+        slidesToShow: 1
+    });
 });

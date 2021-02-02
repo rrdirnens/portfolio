@@ -1,0 +1,19 @@
+.projects {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import 'projects__slider';
+@import 'project__slide';
+@import 'project__actions';
+@import 'project__icon';
+@import 'project__code';
+@import 'project__description';
+@import 'project__image-wrapper';
+@import 'project__image';
+@import 'project__live';
+@import 'project__slide-left';
+@import 'project__slide-right';

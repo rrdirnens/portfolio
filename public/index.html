@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rob Dirnens, Frontend developer</title>
   <link rel="stylesheet" href="../src/scss/app.scss" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -13,17 +15,21 @@
   <section class="main-section">
     <div class="portfolio-wrap">
       <img src="../assets/images/dots.svg" alt="" class="portfolio__svg-decoration portfolio__svg-decoration--top-left">
-      <img src="../assets/images/dots.svg" alt="" class="portfolio__svg-decoration portfolio__svg-decoration--bottom-right">
+      <img src="../assets/images/dots.svg" alt=""
+        class="portfolio__svg-decoration portfolio__svg-decoration--bottom-right">
 
       <div class="portfolio">
         <div class="portfolio__tab-controls">
-          <a href="#tab-1" class="button portfolio__tab-controls-single portfolio__tab-controls-single--active" data-image="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+          <a href="#tab-1" class="portfolio__tab-controls-single portfolio__tab-controls-single--active"
+            data-image="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
             About
           </a>
-          <a href="#tab-2" class="button portfolio__tab-controls-single" data-image="https://images.unsplash.com/photo-1516486392848-8b67ef89f113?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+          <a href="#tab-2" class="portfolio__tab-controls-single"
+            data-image="https://images.unsplash.com/photo-1516486392848-8b67ef89f113?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
             Projects
           </a>
-          <a href="#tab-3" class="button portfolio__tab-controls-single" data-image="https://images.unsplash.com/photo-1507275016429-544fc0875edd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80">
+          <a href="#tab-3" class="portfolio__tab-controls-single"
+            data-image="https://images.unsplash.com/photo-1507275016429-544fc0875edd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80">
             Contact
           </a>
         </div>
@@ -52,19 +58,76 @@
             </div>
           </div>
           <div id="tab-2" class="portfolio__tab-panes-single--projects portfolio__tab-panes-single">
-            mjtujtj
+            <div class="projects">
+              <div class="projects__slider">
+                <div class="project__slide">
+                  <div class="project__slide-left">
+                    <div class="project__image-wrapper">
+                      <img src="../assets/images/project_image_one.jpg" alt="" class="project__image">
+                    </div>
+                  </div>
+                  <div class="project__slide-right">
+                    <div class="project__description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem quos alias libero, nostrum ullam ratione tempore officia nemo. Labore sint aperiam quam quibusdam totam saepe consequuntur reiciendis repellendus nisi.
+                    </div>
+                    <div class="project__actions">
+                      <a href="" class="button project__code">
+                        <img src="../assets/images/github-logo.svg" alt="" class="project__icon">
+                        See Code</a>
+                      <a href="" class="button project__live">
+                        <img src="../assets/images/link-image.svg" alt="" class="project__icon">See Live</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__slide">
+                  <div class="project__slide-left">
+                    <div class="project__image-wrapper">
+                      <img src="../assets/images/project_image_one.jpg" alt="" class="project__image">
+                    </div>
+                  </div>
+                  <div class="project__slide-right">
+                    <div class="project__description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem quos alias libero, nostrum ullam ratione tempore officia nemo. Labore sint aperiam quam quibusdam totam saepe consequuntur reiciendis repellendus nisi.
+                    </div>
+                    <div class="project__actions">
+                      <a href="" class="button project__code">
+                        <img src="../assets/images/github-logo.svg" alt="" class="project__icon">
+                        See Code</a>
+                      <a href="" class="button project__live">
+                        <img src="../assets/images/link-image.svg" alt="" class="project__icon">See Live</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project__slide">
+                  <div class="project__slide-left">
+                    <div class="project__image-wrapper">
+                      <img src="../assets/images/project_image_one.jpg" alt="" class="project__image">
+                    </div>
+                  </div>
+                  <div class="project__slide-right">
+                    <div class="project__description">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem quos alias libero, nostrum ullam ratione tempore officia nemo. Labore sint aperiam quam quibusdam totam saepe consequuntur reiciendis repellendus nisi.
+                    </div>
+                    <div class="project__actions">
+                      <a href="" class="button project__code">
+                        <img src="../assets/images/github-logo.svg" alt="" class="project__icon">
+                        See Code</a>
+                      <a href="" class="button project__live">
+                        <img src="../assets/images/link-image.svg" alt="" class="project__icon">See Live</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="tab-3" class="portfolio__tab-panes-single--contact portfolio__tab-panes-single">
             mtyjmtyjm
           </div>
         </div>
-  
+
       </div>
     </div>
   </section>
-
-
-  <script src="../src/main.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -72,6 +135,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="../src/main.js"></script>
 </body>
 
 </html>
