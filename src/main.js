@@ -44,8 +44,12 @@ window.addEventListener("load", function () {
 });
 
 
-jQuery(document).ready(function () {
+jQuery('#slick-trigger').one('click', function () {
     jQuery('.projects__slider').slick({
         slidesToShow: 1
     });
+});
+
+jQuery('.projects__slider').on('init', function(event, slick, currentSlide, nextSlide){
+    console.log('init');
 });
