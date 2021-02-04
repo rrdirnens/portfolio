@@ -2,11 +2,12 @@
     display: flex;
     padding: 10px 30px;
     color: #fff;
-    background: chocolate;
+    background: #23171b;
+    border-radius: 5px;
 
     @at-root &:hover {
         color: #fff;
-        background: rgb(255, 162, 95);
+        background: #23171b5e;
         text-decoration: none;
     }
 }

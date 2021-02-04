@@ -1,3 +1,14 @@
 .project__slide {
     display: flex!important;
+    outline: none!important;
+
+    &:hover {
+        .project__image--hover-img {
+            opacity: 1!important;
+        }
+
+        .project__image:not(.project__image--hover-img) {
+            opacity: 0!important;
+        }
+    }
 }
