@@ -1,0 +1,7 @@
+.contacts__option {
+    padding: 0 10px;
+
+    @at-root &:hover {
+        opacity: .6;
+    }
+}

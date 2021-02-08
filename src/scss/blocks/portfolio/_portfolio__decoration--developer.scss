@@ -1,8 +1,35 @@
 .portfolio__decoration--developer {
-    bottom: 97px;
-    right: 70px;
-    width: 85%;
+    bottom: -18%;
+    right: 4%;
+    width: 102%;
     height: 80px;
     align-items: center;
     justify-content: center;
+
+    .portfolio__decoration-text {
+        font-family: $sans;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 4px;
+    }
+
+    @media (max-width: 699px) {
+        bottom: 0%;
+        height: 54px;
+        right: 0;
+        width: 100%;
+    }
+
+    @media (min-width: 700px) and (max-width: 900px) {
+        bottom: -12%;
+        height: 54px;
+    }
+
+    @media (min-width: 900px) and (max-width: 1100px) {
+        bottom: -18%;
+        right: 4%;
+        width: 102%;
+        height: 66px;
+    }
 }

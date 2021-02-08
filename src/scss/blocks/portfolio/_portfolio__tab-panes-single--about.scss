@@ -3,6 +3,32 @@
     .portfolio__about-right, .portfolio__about-left {
         flex: 1;
         max-width: 50%;
+
+        @media (max-width: 900px) {
+            flex: unset;
+        }
+    }
+
+    .portfolio__about-right {
+        @media (max-width: 699px) {
+            max-width: 100%;
+            padding: 40px 40px 0 40px;
+        }
+        
+        @media (max-width: 900px) and (min-width: 700px) {
+            max-width: 60%;
+        }
+    }
+
+    .portfolio__about-left {
+        @media (max-width: 900px) {
+            max-width: unset;
+        }
+    }
+
+    @media (max-width: 900px) {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
 }

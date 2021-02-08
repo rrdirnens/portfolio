@@ -43,24 +43,6 @@ window.addEventListener("load", function () {
     for (let i = 0; i < myTabs.length; i++) {
         myTabs[i].addEventListener("click", myTabClicks);
     }
-
-
-    // let projectImages = document.querySelectorAll('.project__image-wrapper')
-
-    // projectImages.forEach(p => {
-    //     // p.innerHTML = `<img src="${logo}" class="project__image">`
-
-    //     p.addEventListener("mouseenter", function( event ) {
-    //         console.log('enter')
-    //         console.log(event)
-    //         event.target.innerHTML += `<img src="${logo}" class="project__image project__image--hover-img">`
-    //     }, false)
-    //     p.addEventListener("mouseleave", function( event ) {
-    //         console.log('leave')
-    //         console.log(event.target)
-    //         event.target.style.background = '#fff'
-    //     }, false)
-    // })
 });
 
 
