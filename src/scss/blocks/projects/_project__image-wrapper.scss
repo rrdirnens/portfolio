@@ -8,4 +8,9 @@
     align-items: center;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
+
+
+    @media (max-width: 730px) {
+        width: 300px;
+    }
 }

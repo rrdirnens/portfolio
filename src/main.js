@@ -138,7 +138,13 @@ jQuery('#slick-trigger').one('click', function () {
 </g>
 </svg>
 
-        </button>`
+        </button>`,
+        responsive: [
+            {
+              breakpoint: 1100,
+              settings: "unslick"
+            }
+        ]
     });
 });
 
